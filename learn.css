@@ -1,0 +1,90 @@
+html,body{
+    height: 1000px;
+    font-size: 10px;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+.h1{
+    min-height: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.h2{
+    padding-left: 0;
+    margin: auto 42px auto 16px;
+}
+.h3{
+    color: yellow;
+    font-size: 10px;
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    cursor: pointer;
+}
+.t{ 
+    background-color: yellow;
+    color: black;
+    font-size: 10px;
+    margin-top: 0;
+    padding: 12px 0;    
+    display:flex ;
+}
+.text{
+    padding: 0 16px;
+    flex: 1;
+}
+.t1{
+    flex: 1;
+}
+.t2{
+    flex: 1;
+}
+.t3{
+    flex: 1;
+}
+.f{
+    background-color: black;
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
+.f0{
+    background-color: black;
+    background-image: url(https://static.kinhtedothi.vn/images/upload/2022/03/22/p.png);
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    flex: 1;
+}
+.f1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfTLGlS8mK8iLd8Iq3ISTsYrGxoDwaKEfu1Okl-XvypGW1QVAsArwd2JfXi650Q-Z6P_c&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size:70% 100%;
+    justify-content: center;
+    flex: 1;
+}
+.f2{
+    background-image: url(https://cdn.tgdd.vn/hoi-dap/1339580/Thumbnail/tim-hieu-logo-moi-cua-xiaomi-y-nghia-gi-dang-sau-cai-gia-7-thumb.jpg);
+    background-repeat: no-repeat;
+    background-size: 90% 100%;
+    justify-content: center;
+    flex: 1;
+}
+
+.label{
+    margin: auto;
+    font-size: 8px;
+    color: #fff;
+}
+.input{
+    margin: auto;
+    font-size: 8px;
+    width: 100px;
+    height: 100%;   
+}
+button{
+    margin: auto;
+    font-size: 8px;
+    width: 50px;
+    height: 100%;
+}
